@@ -14,8 +14,8 @@ jobs:
       - checkout
       - node/install-packages
       - run:
-        name: run test
-        command: npm test
+          name: Run tests
+          command: npm test
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
