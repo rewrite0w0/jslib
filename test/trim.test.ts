@@ -20,4 +20,9 @@ describe('trim test', (): void => {
     const response = trim('              test                         ');
     expect(response).toBe('test');
   });
+
+  test('space', (): void => {
+    const response = trim('                          ');
+    expect(response).toBe('');
+  });
 });
